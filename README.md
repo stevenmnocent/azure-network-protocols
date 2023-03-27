@@ -1,4 +1,3 @@
-<br />
 <p align="center">
 <img src="https://static.wixstatic.com/media/2ebf04_4302f0f9efbd490a84e66d0ea2a414bd~mv2.png" alt="Traffic Examination"/>
 </p>
