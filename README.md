@@ -11,6 +11,9 @@ In this tutorial, we conduct an analysis of the different types of network traff
 
 - ### [YouTube: Azure Virtual Machines, Wireshark, and Network Security Groups](https://youtu.be/O3ISo0YCi5Q)
 
+[![YouTube](https://static.wixstatic.com/media/2ebf04_d8e0a72a22634e3181fadf12cb47fbdb~mv2.png)](https://youtu.be/O3ISo0YCi5Q)
+</p>
+
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
