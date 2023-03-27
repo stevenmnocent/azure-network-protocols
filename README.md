@@ -28,10 +28,9 @@ In this tutorial, we conduct an analysis of the different types of network traff
 
 <h2>High-Level Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Create two virtual machines: You'll need to create two virtual machines (VMs) that will serve as the traffic sources for network analysis. Use pre-built images, namely Windows 10 Pro Version 21H2 and Ubuntu Server 20.04 LTS. These VMs will communicate with each other within the same virtual network.
+- Deploy Wireshark on the Windows 10 Pro VM: Once you have created the virtual machines, you will need to install the Wireshark network protocol analyzer software on the Windows 10 Pro VM. Wireshark captures and displays network traffic, allowing the user to inspect packets and analyze network behavior.
+- Generate and analyze network traffic: Generate network traffic between the two VMs using various protocols such as Internet Control Message Protocol (ICMP), Secure Shell (SSH), Dynamic Host Configuration Protocol (DHCP), Domain Name System (DNS), and Remote Desktop Protocol (RDP). Capture and analyze the network traffic using Wireshark by applying filters for these protocols. This analysis will reveal important information such as source and destination IP addresses, and packet lengths, providing insights into the network's behavior and performance.
 
 <h2>Actions and Observations</h2>
 
