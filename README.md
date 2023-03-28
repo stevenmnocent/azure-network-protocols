@@ -230,4 +230,4 @@ Step 21: Filter for Remote Desktop Protocol (RDP) traffic and observe the traffi
 </p>
 <br />
 
-<p align="center">💧<b><i>Individually, we are one drop. Together, we are an ocean. ~ Ryunosuke Satoro</b></i>🌊</p>
+<p align="center">💧 <b><i>Individually, we are one drop. Together, we are an ocean. ~ Ryunosuke Satoro</b></i> 🌊</p>
