@@ -41,6 +41,7 @@ In this tutorial, we conduct an analysis of the different types of network traff
 <p>
 Step 1: Create a new resource group on Microsoft Azure.
 </p>
+<br />
 
 <p>
 <p align="center"> 
@@ -49,6 +50,7 @@ Step 1: Create a new resource group on Microsoft Azure.
 <p>
 Step 2: Set up an Azure virtual machine (VM) operating on Windows 10 Pro, Version 21H2.
 </p>
+<br />
 
 <p>
 <p align="center"> 
@@ -57,6 +59,7 @@ Step 2: Set up an Azure virtual machine (VM) operating on Windows 10 Pro, Versio
 <p>
 Step 3: Generate a username and password for the administrator account and proceed with creating the VM.
 </p>
+<br />
 
 <p>
 <p align="center"> 
@@ -65,6 +68,7 @@ Step 3: Generate a username and password for the administrator account and proce
 <p>
 Step 4: Create an additional virtual machine that operates on Ubuntu Server 20.04 LTS. Choose a username and password for the administrator account and include it in the same resource group and virtual network as the first VM.
 </p>
+<br />
 
 <p>
 <p align="center"> 
@@ -73,6 +77,7 @@ Step 4: Create an additional virtual machine that operates on Ubuntu Server 20.0
 <p>
 Step 5: Connect to the first virtual machine using a remote desktop connection.
 </p>
+<br />
 
 <p>
 <p align="center"> 
@@ -81,6 +86,7 @@ Step 5: Connect to the first virtual machine using a remote desktop connection.
 <p>
 Step 6: Open Microsoft Edge and navigate to https://wireshark.org/download.html to download version 4.0.4 of Wireshark.
 </p>
+<br />
 
 <p>
 <p align="center"> 
@@ -89,6 +95,7 @@ Step 6: Open Microsoft Edge and navigate to https://wireshark.org/download.html 
 <p>
 Step 7: Install Wireshark with the default installation settings.
 </p>
+<br />
 
 <p>
 <p align="center"> 
@@ -97,6 +104,7 @@ Step 7: Install Wireshark with the default installation settings.
 <p>
 Step 8: Begin capturing packets by launching Wireshark, clicking on the Ethernet option, and selecting the Blue Wireshark icon.
 </p>
+<br />
 
 <p>
 <p align="center"> 
@@ -105,6 +113,7 @@ Step 8: Begin capturing packets by launching Wireshark, clicking on the Ethernet
 <p>
 Step 9: Observe the traffic and filter it for ICMP traffic.
 </p>
+<br />
 
 <p>
 <p align="center"> 
@@ -113,6 +122,7 @@ Step 9: Observe the traffic and filter it for ICMP traffic.
 <p>
 Step 10: Using Windows PowerShell, ping the private IP address of the second virtual machine running Ubuntu Server and observe the traffic.
 </p>
+<br />
 
 <p>
 <p align="center"> 
@@ -121,6 +131,7 @@ Step 10: Using Windows PowerShell, ping the private IP address of the second vir
 <p>
 Step 11: Ping the second virtual machine non-stop using the -t command. Afterwards, proceed to block ICMP traffic from Azure for virtual machine 2.
 </p>
+<br />
 
 <p>
 <p align="center"> 
@@ -129,6 +140,7 @@ Step 11: Ping the second virtual machine non-stop using the -t command. Afterwar
 <p>
 Step 12: Access the network security groups section, choose the second virtual machine, then navigate to Inbound security rules, and select "Add."
 </p>
+<br />
 
 <p>
 <p align="center"> 
@@ -137,6 +149,7 @@ Step 12: Access the network security groups section, choose the second virtual m
 <p>
 Step 13: Keep the settings the same, but modify the protocol to ICMP, choose "Deny " for the action, set the priority to 299, and click on "Add."
 </p>
+<br />
 
 <p>
 <p align="center"> 
@@ -145,6 +158,7 @@ Step 13: Keep the settings the same, but modify the protocol to ICMP, choose "De
 <p>
 Step 14: Notice how ICMP traffic has come to a halt due to the adjustments we made to block it.
 </p>
+<br />
 
 <p>
 <p align="center"> 
@@ -153,6 +167,7 @@ Step 14: Notice how ICMP traffic has come to a halt due to the adjustments we ma
 <p>
 Step 15: Return to Inbound security rules in Azure, select "Allow" under action to enable ICMP traffic, and click on "Save".
 </p>
+<br />
 
 <p>
 <p align="center"> 
@@ -161,6 +176,7 @@ Step 15: Return to Inbound security rules in Azure, select "Allow" under action 
 <p>
 Step 16: Observe the resumption of replies for ICMP traffic, and then press "Ctrl + C" to stop the non-stop ping.
 </p>
+<br />
 
 <p>
 <p align="center"> 
@@ -169,6 +185,7 @@ Step 16: Observe the resumption of replies for ICMP traffic, and then press "Ctr
 <p>
 Step 17: Filter for SSH traffic, and then connect to the command line of virtual machine 2 by typing the following command into PowerShell: "ssh [username of virtual machine]@[vm2privateipaddress]. " After typing "yes," enter the password that we created for the administrator account of VM 2.
 </p>
+<br />
 
 <p>
 <p align="center"> 
@@ -184,6 +201,7 @@ Step 17: Filter for SSH traffic, and then connect to the command line of virtual
  </ul> 
 Then, type "exit" to leave virtual machine 2's command line.
 </p>
+<br />
 
 <p>
 <p align="center"> 
@@ -192,6 +210,7 @@ Then, type "exit" to leave virtual machine 2's command line.
 <p>
 Step 19: Filter for DHCP traffic and execute the command "ipconfig /renew" in PowerShell to force DHCP to assign a new IP address, then observe the traffic.
 </p>
+<br />
 
 <p>
 <p align="center"> 
@@ -200,6 +219,7 @@ Step 19: Filter for DHCP traffic and execute the command "ipconfig /renew" in Po
 <p>
 Step 20: Filter for DNS traffic, and type "nslookup www.google.com" in PowerShell, then observe the DNS traffic.
 </p>
+<br />
 
 <p>
 <p align="center"> 
