@@ -84,7 +84,7 @@ Step 5: Connect to the first virtual machine using a remote desktop connection.
 <img src="https://static.wixstatic.com/media/2ebf04_b462864732e1497eaf73b416bec56483~mv2.png" height="80%" width="80%" alt="Network Security Groups (NSGs) and Inspecting Network Protocols"/>
 </p>
 <p>
-Step 6: Open Microsoft Edge and navigate to https://wireshark.org/download.html to download version 4.0.4 of Wireshark.
+Step 6: Open Microsoft Edge and navigate to https://wireshark.org/download.html to download the latest version of Wireshark.
 </p>
 <br />
 
