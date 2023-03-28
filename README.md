@@ -90,7 +90,7 @@ Step 6: Open Microsoft Edge and navigate to https://wireshark.org/download.html 
 
 <p>
 <p align="center"> 
-<img src="https://static.wixstatic.com/media/2ebf04_10e47a6adb6f449588dea6f9a8438d50~mv2.png" height="80%" width="80%" alt="Network Security Groups (NSGs) and Inspecting Network Protocols"/>
+<img src="https://static.wixstatic.com/media/2ebf04_10e47a6adb6f449588dea6f9a8438d50~mv2.png" height="50%" width="50%" alt="Network Security Groups (NSGs) and Inspecting Network Protocols"/>
 </p>
 <p>
 Step 7: Install Wireshark with the default installation settings.
@@ -99,7 +99,7 @@ Step 7: Install Wireshark with the default installation settings.
 
 <p>
 <p align="center"> 
-<img src="https://static.wixstatic.com/media/2ebf04_301150f264f8472793827b9f7ac8a87b~mv2.png" height="80%" width="80%" alt="Network Security Groups (NSGs) and Inspecting Network Protocols"/>
+<img src="https://static.wixstatic.com/media/2ebf04_301150f264f8472793827b9f7ac8a87b~mv2.png" height="50%" width="50%" alt="Network Security Groups (NSGs) and Inspecting Network Protocols"/>
 </p>
 <p>
 Step 8: Begin capturing packets by launching Wireshark, clicking on the Ethernet option, and selecting the Blue Wireshark icon.
